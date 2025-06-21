@@ -1,0 +1,56 @@
+<!--
+    Project : Gestion des employés
+    Author : Ala Amara
+    Date : 2023-1-19
+    File : index.html
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion des employés</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 min-h-screen">
+    <div class="container mx-auto px-4 py-8">
+        <div class="max-w-3xl mx-auto bg-white rounded-lg shadow-md overflow-hidden">
+            <div class="p-6 bg-blue-600 text-white">
+                <h1 class="text-2xl font-bold">Gestion des employés</h1>
+                <p class="mt-2">Veuillez choisir l'opération que vous voulez faire:</p>
+            </div>
+            
+            <div class="p-6">
+                <ul class="space-y-4">
+                    <li>
+                        <a href="ajout.html" class="flex items-center p-4 bg-blue-50 hover:bg-blue-100 rounded-lg transition">
+                            <i class="fas fa-user-plus mr-3 text-blue-600"></i>
+                            <span class="text-lg">Ajouter un employé</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="supprimer.html" class="flex items-center p-4 bg-blue-50 hover:bg-blue-100 rounded-lg transition">
+                            <i class="fas fa-user-minus mr-3 text-blue-600"></i>
+                            <span class="text-lg">Supprimer un employé</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="selection.html" class="flex items-center p-4 bg-blue-50 hover:bg-blue-100 rounded-lg transition">
+                            <i class="fas fa-search mr-3 text-blue-600"></i>
+                            <span class="text-lg">Sélectionner un/des employé(s)</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="modif1.html" class="flex items-center p-4 bg-blue-50 hover:bg-blue-100 rounded-lg transition">
+                            <i class="fas fa-user-edit mr-3 text-blue-600"></i>
+                            <span class="text-lg">Modifier un employé</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

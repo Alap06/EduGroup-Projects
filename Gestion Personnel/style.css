@@ -1,0 +1,43 @@
+body
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ul
+{
+    line-height: 50px;
+    background-color: bisque;
+}
+a
+{
+    text-decoration: none;
+}
+div
+{
+    margin: 20px;
+}
+label
+{
+    display: inline-block;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 20px;
+    width: 250px;
+}
+input,select
+{
+    font-size: 20px;
+    color: midnightblue;
+    padding: 5px;
+    width: 250px;
+}
+#bt
+{
+    text-align: right;
+}
+img
+{
+    float: right;
+    width: 50px;
+    height: 50px;
+}
