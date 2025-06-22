@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau de Bord Administratif</title>
+    <link rel="stylesheet" href="style_ind.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Tableau de Bord Administratif</h1>
+        </header>
+
+        <nav class="sidebar">
+            <ul>
+                <li><a href="#" onclick="showSection('students')">Liste des Étudiants</a></li>
+                <li><a href="#" onclick="showSection('createAccount')">Créer un Compte</a></li>
+                <li><a href="#" onclick="showSection('contactMessages')">Messages de Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="content">
+            <section id="students" class="section" style="display:none;">
+                <h2>Liste des Étudiants</h2>
+                <input type="text" placeholder="Rechercher un étudiant..." class="search-bar">
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Nom</th>
+                            <th>Email</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Jean Dupont</td>
+                            <td>jean.dupont@example.com</td>
+                            <td>
+                                <button class="action-button">Modifier</button>
+                                <button class="action-button delete-button">Supprimer</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Marie Curie</td>
+                            <td>marie.curie@example.com</td>
+                            <td>
+                                <button class="action-button">Modifier</button>
+                                <button class="action-button delete-button">Supprimer</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section id="createAccount" class="section" style="display:none;">
+                <h2>Créer un Compte</h2>
+                <form class="account-form">
+                    <div class="form-group">
+                        <label for="full-name">Nom Complet</label>
+                        <input type="text" id="full-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="id-card">ID Carte</label>
+                        <input type="text" id="id-card" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="role">Rôle</label>
+                        <select id="role" required>
+                            <option value="admin">Admin</option>
+                            <option value="user">Utilisateur</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="submit-button">Créer Compte</button>
+                </form>
+            </section>
+
+            <section id="contactMessages" class="section" style="display:none;">
+                <h2>Messages de Contact</h2>
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Nom</th>
+                            <th>Email</th>
+                            <th>Message</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Luc Martin</td>
+                            <td>luc.martin@example.com</td>
+                            <td>J'aimerais avoir plus d'informations sur le cours.</td>
+                            <td>
+                                <button class="action-button delete-button">Supprimer</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Anne Leroy</td>
+                            <td>anne.leroy@example.com</td>
+                            <td>Merci pour votre aide !</td>
+                            <td>
+                                <button class="action-button delete-button">Supprimer</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </div>
+    </div>
+
+    <script>
+        function showSection(sectionId) {
+            const sections = document.querySelectorAll('.section');
+            sections.forEach(section => section.style.display = 'none');
+            document.getElementById(sectionId).style.display = 'block';
+        }
+    </script>
+</body>
+</html>
