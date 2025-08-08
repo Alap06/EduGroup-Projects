@@ -1,0 +1,831 @@
+[
+    { 
+        "text": "Vielen Dank für Ihr Interesse (21) an unseren Deutschkursen. Anbei erhalten Sie das angeforderte Anmeldeformular, das Sie bitte ausgefüllt an uns zurückschicken. Mit der Anmeldung überweisen Sie bitte eine Anzahlung (22) von € 200,- auf unser Konto. Die Kontoverbindung finden Sie unten auf dem Anmeldeformular. (23) Für eine genauere Einschätzung Ihrer Vorkenntnisse haben wir einen Einstufungstest beigelegt. Wenn Sie die Testbogen ausfüllen und mit der Anmeldung an uns zurücksenden, helfen Sie uns bei der Kursplanung. Ein mündlicher Test wird sich am ersten Unterrichtstag in unserer Schule (24) stattfinden. Damit sind wir in der Lage, den für Sie angemessenen Kurs auszuwählen. Außerdem finden Sie in den Unterlagen einen Fragebogen (25) zu Ihren Freizeitinteressen. Wir werden uns bemühen, Ihnen den Aufenthalt in Leipzig so angenehm (26) wie möglich zu gestalten. Schließlich füllen Sie bitte das grüne Unterkunftblatt aus. Sie können wählen zwischen einem 3-Sterne-Hotel, (27) einer Privatunterkunft in einer deutschen Gastfamilie oder der Unterkunft in einem Studentenwohnheim. Letzteres ist nur in den Semesterferien der Universität - in der Regel vom 15.2. bis 15.4. und vom 15.7. bis 15.10. - möglich. Geben Sie bitte auch Ihre Verpflegungswünsche - Frühstück oder Halbpension - an. Beachten Sie aber, dass im Studentenwohnheim nur Selbstverpflegung möglich ist. (28) Sobald Ihre Anmeldung bei uns eingegangen ist, erhalten Sie eine Anmeldebestätigung und einen Stadtplan mit Wegbeschreibung. (29) Damit Sie den Weg zu uns ohne Umstände finden, erhalten Sie die Adresse Ihrer Unterkunft ca. 2 Wochen vor Kursbeginn. (30) Für weitere Fragen steht Ihnen unser Sekretariat gerne montags bis freitags von 8 bis 18 Uhr zur Verfügung.",
+        "questions": [
+            {
+                "question": "21) ...",
+                "options": ["A) anbei", "B) dabei", "C) vorbei"],
+                "answer": "A"
+            },
+            {
+                "question": "22) ...",
+                "options": ["A) in Betrag", "B) in Höhe", "C) in Summe"],
+                "answer": "B"
+            },
+            {
+                "question": "23) ...",
+                "options": ["A) für", "B) zur", "C) Zweck"],
+                "answer": "A"
+            },
+            {
+                "question": "24) ...",
+                "options": ["A) angeschlossen", "B) anschließen", "C) stattfinden"],
+                "answer": "C"
+            },
+            {
+                "question": "25) ...",
+                "options": ["A) anlässlich", "B) bezüglich", "C) mittels"],
+                "answer": "B"
+            },
+            {
+                "question": "26) ...",
+                "options": ["A) als", "B) wenn", "C) wie"],
+                "answer": "C"
+            },
+            {
+                "question": "27) ...",
+                "options": ["A) ein", "B) einem", "C) einer"],
+                "answer": "C"
+            },
+            {
+                "question": "28) ...",
+                "options": ["A) Sobald", "B) Sofort", "C) Sooft"],
+                "answer": "A"
+            },
+            {
+                "question": "29) ...",
+                "options": ["A) dafür", "B) damit", "C) dazu"],
+                "answer": "B"
+            },
+            {
+                "question": "30) ...",
+                "options": ["A) bei", "B) für", "C) zu"],
+                "answer": "B"
+            }
+        ]
+    },
+    {
+        "text": "Lernen Sie den vollständigen Test und entscheiden Sie, welches Wort (a, b oder c) in die jeweilige Lücke passt. Markieren Sie Ihre Lösungen auf dem Antwortbogen bei den Aufgaben 21-30.\n\nSehr geehrte Frau Szabo,\nvielen Dank für Ihr Interesse an unseren Deutschkursen. (21) erhalten Sie das angeforderte Anmeldeformular, das Sie bitte ausgefüllt an uns zurückschicken. Mit der Anmeldung überweisen Sie bitte eine Anzahlung (22) von € 200,- auf unser Konto. Die Kontoverbindung finden Sie unten auf dem Anmeldeformular. (23) Für genauere Einschätzung Ihrer Vorkenntnisse haben wir einen Einstufungstest beigelegt. Wenn Sie die Testbogen ausfüllen und mit der Anmeldung an uns zurücksenden, helfen Sie uns bei der Kursplanung. Ein mündlicher Test wird sich am ersten Unterrichtstag in unserer Schule (24) stattfinden. Damit sind wir in der Lage, den für Sie angemessenen Kurs auszuwählen. Außerdem finden Sie in den Unterlagen einen Fragebogen (25) zu Ihren Freizeitinteressen, denn wir werden uns bemühen, Ihnen den Aufenthalt in Leipzig (26) angenehm zu gestalten. Schließlich füllen Sie bitte das grüne Unterkunftblatt aus. Sie können wählen zwischen einem 3-Sterne-Hotel, (27) einer Privatunterkunft in einer deutschen Gastfamilie oder der Unterkunft in einem Studentenwohnheim. Letzteres ist nur in den Semesterferien der Universität - in der Regel vom 15.2. bis 15.4. und vom 15.7. bis 15.10. - möglich. Geben Sie bitte auch Ihre Verpflegungswünsche - Frühstück oder Halbpension - an. Beachten Sie aber, dass im Studentenwohnheim nur Selbstverpflegung möglich ist. (28) Sobald Ihre Anmeldung bei uns eingegangen ist, erhalten Sie eine Anmeldebestätigung und einen Stadtplan mit Wegbeschreibung. (29) Damit Sie den Weg zu uns ohne Umstände finden. Die Adresse Ihrer Unterkunft erhalten Sie ca. 2 Wochen vor Kursbeginn. (30) Für weitere Fragen steht Ihnen unser Sekretariat gerne montags bis freitags von 8 bis 18 Uhr zur Verfügung.\n\nMit freundlichen Grüßen\nGerhard Dietz\nDirektor",
+        "questions": [
+            {
+                "question": "21) ...",
+                "options": ["A) anbei", "B) dabei", "C) vorbei"],
+                "answer": "A"
+            },
+            {
+                "question": "22) ...",
+                "options": ["A) in Betrag", "B) in Höhe", "C) in Summe"],
+                "answer": "B"
+            },
+            {
+                "question": "23) ...",
+                "options": ["A) für", "B) zur", "C) Zweck"],
+                "answer": "B"
+            },
+            {
+                "question": "24) ...",
+                "options": ["A) durchführen", "B) stattfinden", "C) veranstalten"],
+                "answer": "B"
+            },
+            {
+                "question": "25) ...",
+                "options": ["A) anlässlich", "B) bezüglich", "C) mittels"],
+                "answer": "B"
+            },
+            {
+                "question": "26) ...",
+                "options": ["A) möglich", "B) möglicherweise", "C) möglichst"],
+                "answer": "C"
+            },
+            {
+                "question": "27) ...",
+                "options": ["A) ein", "B) einem", "C) einer"],
+                "answer": "C"
+            },
+            {
+                "question": "28) ...",
+                "options": ["A) Sobald", "B) Sofort", "C) Sooft"],
+                "answer": "A"
+            },
+            {
+                "question": "29) ...",
+                "options": ["A) dafür", "B) damit", "C) dazu"],
+                "answer": "B"
+            },
+            {
+                "question": "30) ...",
+                "options": ["A) bei", "B) für", "C) zu"],
+                "answer": "B"
+            }
+        ]
+    } ,
+    {
+        "text": "Lesen Sie den folgenden Test und entscheiden Sie, welches Wo (a, b oder e) in die jeweilige Lücke passt. Markieren Sie Ihre Lösungen auf dem Antwortbogen bei den Aufgaben 21-30.\n\nHallo Judith, oder Lina, oder liebe Nurgul, oder lieber Bea.\n\nWir haben uns ja lange nicht gesehen. Ich hoffe, du hattest einen richtig schönen Urlaub in Kroatien! Danke auch für deine Urlaubskarte! Die hat mich echt neidisch gemacht; ich habe ja erst im September Urlaub.\n(21) Hoffentlich rufst du heute schon deine E-Mails ab und liest diese Nachricht von mir! Wir, als das gesamte Team, möchten (22) unserer Kollegin Elena zu ihrer Pensionierung gemeinsam etwas zum Abschied schenken. Ihre Abschiedsfeier ist ja (23) übermorgen abends im großen Konferenzraum unserer Firma. Bist du (24) einverstanden, dass wir ihr zusammen einen Gutschein und einen Blumenstrauß schenken? Jeder zahlt etwas 10 € dazu. Ich denke, das ist angemessen. Du erinnerst dich: (25) als wir das letzte Mal gesammelt hatten, gab es Beschwerden wegen der Höhe des Betrags. Aber möglicherweise hast du eine bessere Idee.\nMichael und ich gehen dann nachmittags (26) miteinander in der Stadt einkaufen. Die Glückwunschkarte für Elena konntest du dann übermorgen noch (27) vor der Feier unterschreiben. Wir treffen uns ja alle vorher und gehen gemeinsam hin.\nIn der Firma war heute nicht viel los. Aber in den letzten 14 Tagen hatten viele Kollegen Urlaub, (28) weshalb ich sehr viel zu tun hatte. Es gibt übrigens auch (29) neue Entwicklungen in der Firma, von denen ich dir dann übermorgen erzählen kann.\nWahrscheinlich bist du nach der langen Fahrt sehr müde. Schlaf dich morgen gut aus; wir sehen uns dann auf Elenas Feier! Ich wünsche dir heute einen (30) angenehmen Tag ...\n\nLiebe Grüße,\nCosima",
+        "questions": [
+            {
+                "question": "21) ...",
+                "options": ["A) zuversichtlich", "B) möglichst", "C) hoffentlich"],
+                "answer": "C"
+            },
+            {
+                "question": "22) ...",
+                "options": ["A) vermutlich", "B) nämlich", "C) bestimmt"],
+                "answer": "B"
+            },
+            {
+                "question": "23) ...",
+                "options": ["A) schon", "B) fast", "C) beinahe"],
+                "answer": "A"
+            },
+            {
+                "question": "24) ...",
+                "options": ["A) damit", "B) dafür", "C) dadurch"],
+                "answer": "A"
+            },
+            {
+                "question": "25) ...",
+                "options": ["A) wenn", "B) wann", "C) als"],
+                "answer": "C"
+            },
+            {
+                "question": "26) ...",
+                "options": ["A) zueinander", "B) voneinander", "C) miteinander"],
+                "answer": "C"
+            },
+            {
+                "question": "27) ...",
+                "options": ["A) vor kurzem", "B) kürzlich", "C) kurz"],
+                "answer": "C"
+            },
+            {
+                "question": "28) ...",
+                "options": ["A) weshalb", "B) insofern", "C) deshalb"],
+                "answer": "A"
+            },
+            {
+                "question": "29) ...",
+                "options": ["A) vollkommen", "B) sämtlich", "C) erschöpfend"],
+                "answer": "A"
+            },
+            {
+                "question": "30) ...",
+                "options": ["A) angenehm", "B) angenehm", "C) angenehm"],
+                "answer": "C"
+            }
+        ]
+    } ,
+    {
+        "text": "Vielen Dank für deine Nachricht, (21) über die ich mich sehr gefreut habe. Es ist echt eine tolle Idee, im Sommer gemeinsam zu verreisen! Aber möchtest du wirklich mit dem Auto fahren? Ich würde lieber die Bahn nehmen, denn das ist umweltfreundlicher und (22) außerdem noch billiger. Momentan bin ich nämlich mal wieder etwas knapp bei Kasse. Wir könnten doch eine Interrail-Tour machen. Mit einem Global Pass können wir in 30 europäischen Ländern Zug (23) fahren und zwar wann und wohin auch immer - allerdings nicht bei uns in Deutschland. Hier müssen wir extra zahlen. Aber wir haben es ja von mir aus nicht allzu weit bis zur Grenze. (24) Da wir noch keine 26 Jahre alt sind, können wir den Pass ausgesprochen günstig bekommen. Der Preis hängt (25) davon ab, wie lange wir unterwegs sein wollen. Wenn du lieber nur ein einziges Land bereisen möchtest, schlage ich vor, nach Frankreich zu fahren. Dann nämlich würden wir für ein Interrail-Ticket sogar noch weniger zahlen. Ich habe auch schon mit meiner Tante in Marseille (26) gesprochen und sie hat gleich vorgeschlagen, (27) dass wir einige Tage bei ihr verbringen. Meine Cousins Jérôme und Matthieu, die in Paris studieren, haben Semesterferien und werden auch dort sein. Die beiden würden (28) sich freuen, mit uns um die Häuser zu ziehen, und könnten uns sicherlich die angesagtesten Clubs der Stadt zeigen. Wegen (29) der Sprachkenntnisse brauchst du dir nicht den Kopf zu zerbrechen, denn die beiden sprechen ziemlich gut Deutsch. Was hältst du davon? Hast du noch andere Vorschläge? Ich freue mich (30) schon sehr auf unsere gemeinsame Reise.\n\nMAZLUM\n\nBis bald,\nThomas",
+        "questions": [
+            {
+                "question": "21) ...",
+                "options": ["A) mit", "B) über", "C) wegen"],
+                "answer": "B"
+            },
+            {
+                "question": "22) ...",
+                "options": ["A) außerdem", "B) sonst", "C) weiterhin"],
+                "answer": "A"
+            },
+            {
+                "question": "23) ...",
+                "options": ["A) fahren", "B) kommen", "C) nehmen"],
+                "answer": "A"
+            },
+            {
+                "question": "24) ...",
+                "options": ["A) da", "B) darum", "C) deshalb"],
+                "answer": "A"
+            },
+            {
+                "question": "25) ...",
+                "options": ["A) dadurch", "B) damit", "C) davon"],
+                "answer": "C"
+            },
+            {
+                "question": "26) ...",
+                "options": ["A) besprochen", "B) gesprochen", "C) versprochen"],
+                "answer": "B"
+            },
+            {
+                "question": "27) ...",
+                "options": ["A) als", "B) dass", "C) wenn"],
+                "answer": "B"
+            },
+            {
+                "question": "28) ...",
+                "options": ["A) euch", "B) sich", "C) uns"],
+                "answer": "B"
+            },
+            {
+                "question": "29) ...",
+                "options": ["A) das", "B) der", "C) die"],
+                "answer": "B"
+            },
+            {
+                "question": "30) ...",
+                "options": ["A) bestenfalls", "B) jedenfalls", "C) keinesfalls"],
+                "answer": "B"
+            }
+        ]
+    } ,
+    {
+        "text": "Bevor wieder der Arbeitsalltag beginnt, schicke ich dir (21) rasch einige Zeilen, um dir von unserem Wochenende zu erzählen. Es ist so schade, dass du (22) wegen deiner Grippe nicht dabei sein konntest! Wir haben dich alle sehr vermisst. (23) Alle auf Mikro sind mit dem Zug angereist und wir haben uns schon am Bahnhof getroffen. Nachdem wir unser Gepäck abgestellt (24), haben wir gleich einen Rundgang durch den Ort gemacht. Lilo wusste viel Interessantes zu erzählen. Sie lebt ja schon einige Jahre dort und hat sich (25) als ausgezeichnete Fremdenführerin erwiesen. Besonders beeindruckt hat uns der wunderschöne Park, in dem gerade die Rhododendren blühten. Eine wahre Pracht. Das hätte dir auch gefallen! Später sind wir zum Ammersee gewandert, den man in kurzer Zeit vom Ort aus erreicht. Dort haben wir eine Bootsfahrt über den See gemacht. Vom Boot aus hat man einen wunderbaren Blick auf die beeindruckende Felsenlandschaft. Am Abend stand dann die Felsenbühne (26) im Programm. Die Wanderung am nächsten Tag war (27) schon anstrengend, aber wunderbar. (28) Obwohl alle ziemlich erschöpft waren, haben wir nach dem Abendessen noch lange zusammen gegessen und über alte Zeiten geplaudert. Am nächsten Morgen, nach unserem gemeinsamen Frühstück, waren wir uns einig, dass wir bald wieder zusammen einen Ausflug machen (29). Und beim nächsten Mal musst du unbedingt dabei sein. Im Anhang schicke ich dir einige Fotos. Wie du siehst, war unser Treffen wirklich lustig! Ich hoffe, dass es dir (30) inzwischen schon wieder besser geht.\n\nLiebe Grüße von uns allen,\nCem",
+        "questions": [
+            {
+                "question": "21) ...",
+                "options": ["A) momentan", "B) noch", "C) weiterhin"],
+                "answer": "B"
+            },
+            {
+                "question": "22) ...",
+                "options": ["A) deswegen", "B) wegen", "C) weil"],
+                "answer": "B"
+            },
+            {
+                "question": "23) ...",
+                "options": ["A) abgesehen", "B) außer", "C) bis"],
+                "answer": "C"
+            },
+            {
+                "question": "24) ...",
+                "options": ["A) haben", "B) hatten", "C) hätten"],
+                "answer": "B"
+            },
+            {
+                "question": "25) ...",
+                "options": ["A) als", "B) für", "C) zur"],
+                "answer": "A"
+            },
+            {
+                "question": "26) ...",
+                "options": ["A) auf", "B) in", "C) zu"],
+                "answer": "A"
+            },
+            {
+                "question": "27) ...",
+                "options": ["A) absolut", "B) ganz", "C) vollkommen"],
+                "answer": "B"
+            },
+            {
+                "question": "28) ...",
+                "options": ["A) obwohl", "B) trotzdem", "C) ungeachtet"],
+                "answer": "A"
+            },
+            {
+                "question": "29) ...",
+                "options": ["A) durften", "B) konnten", "C) sollten"],
+                "answer": "C"
+            },
+            {
+                "question": "30) ...",
+                "options": ["A) inzwischen", "B) während", "C) nachdem"],
+                "answer": "A"
+            }
+        ]
+    } ,
+    {
+        "text": "Nun ist es schon drei Monate her, dass ich nach Frankfurt gezogen bin. Es hat ziemlich lange gedauert, bis ich mich hier eingelebt habe. Am Anfang hatte ich mich auch gar nicht (21) auf die neue Stelle und das Leben in der Stadt gefreut. Dass ich mich für meine neue Arbeitsstelle umgezogen war, hatte mich eine Zeit lang sogar ein bisschen geärgert. Ich (22) hätte ja auch täglich mit dem Zug fahren können, statt mir eine Wohnung in der Nähe der Firma zu suchen. Zuerst habe ich (23) mich in meiner neuen Wohnung auch gar nicht richtig wohlgefühlt. Aber nachdem ich meine Umzugskartons (24) ausgepackt habe, konnte ich endlich die Stadt richtig erkunden. Seit einiger Zeit gefällt es mir in Frankfurt nun richtig gut. Das liegt vor allem (25) daran, dass ich eine neue Freundin gefunden habe. Annabelle wohnt in derselben Straße wie ich und wir haben uns auf einem Flohmarkt in unserem Stadtviertel kennengelernt. Sie hat dort ihre alten Bücher verkauft. Als wir (26) ins Gespräch kamen, haben wir festgestellt, dass wir ähnliche Interessen und Hobbys teilen: Sie mag ebenfalls ausgefallene Mode und moderne Kunst und wir gehen nun regelmäßig zusammen ins Schwimmbad. Mein Leben sieht nun also ganz anders aus (27) als vor drei Monaten. Mit meiner neuen Stelle bin ich auch zufrieden, (28) obwohl ich oft Überstunden machen muss. Dafür herrscht jedoch ein angenehmes Betriebsklima (29) mit uns in der Abteilung. Jetzt habe ich viel von mir erzählt, aber dich noch gar nicht gefragt, wie es dir (30) geht. Gibt es etwas Neues bei dir? Ich freue mich auf deine nächste Mail!\n\nHerzliche Grüße,\nDeine Emilia",
+        "questions": [
+            {
+                "question": "21) ...",
+                "options": ["A) an", "B) auf", "C) wegen"],
+                "answer": "B"
+            },
+            {
+                "question": "22) ...",
+                "options": ["A) habe", "B) hätte", "C) würde"],
+                "answer": "B"
+            },
+            {
+                "question": "23) ...",
+                "options": ["A) dich", "B) uns", "C) mich"],
+                "answer": "C"
+            },
+            {
+                "question": "24) ...",
+                "options": ["A) ausgepackt habe", "B) ausgepackt hatte", "C) auspackte"],
+                "answer": "B"
+            },
+            {
+                "question": "25) ...",
+                "options": ["A) daran", "B) darauf", "C) darin"],
+                "answer": "A"
+            },
+            {
+                "question": "26) ...",
+                "options": ["A) einander", "B) gegeneinander", "C) miteinander"],
+                "answer": "C"
+            },
+            {
+                "question": "27) ...",
+                "options": ["A) als", "B) denn", "C) wenn"],
+                "answer": "A"
+            },
+            {
+                "question": "28) ...",
+                "options": ["A) obwohl", "B) trotzdem", "C) während"],
+                "answer": "A"
+            },
+            {
+                "question": "29) ...",
+                "options": ["A) bei", "B) mit", "C) zu"],
+                "answer": "A"
+            },
+            {
+                "question": "30) ...",
+                "options": ["A) eigentlich", "B) hoffentlich", "C) sicherlich"],
+                "answer": "A"
+            }
+        ]
+    } ,
+    {
+        "text": "Liebe Andrea,\n\nvielen Dank für deine Nachricht. Entschuldige bitte, dass ich (21) gleich antworte, aber ich konnte gestern meinen Laptop nicht verwenden. Ich hatte ihn zu Peter gebracht, damit er mir ein neues Betriebssystem installiert. Jetzt funktioniert alles (22) bestens, so dass ich endlich meine Fotos sortieren konnte. Peter und ich haben uns die Fotos von deinem letzten Besuch hier angesehen. Es war so lustig, du musst bald wieder mal (23) zu uns kommen. Nun zu deiner Nachricht: Du suchst also einen Sommerjob im Bereich Touristik und wolltest wissen, ob ich einen Tipp für dich habe. Ich habe mich hier ein wenig umgehört, aber du bist (24) ziemlich spät dran mit deiner Suche. Nur das Hotel \"Seeblick\" sucht noch jemanden für die Rezeption. Man braucht keine (25) besondere Berufserfahrung; nur Englisch ist zwingende Voraussetzung, eine (26) weitere Fremdsprache wäre noch besser. Das wäre für Juli und August, fünf Tage in der Woche. Du musst dich allerdings sehr bald (27) bewerben, am besten noch heute. Die Kontaktperson findest du auf der Webseite des Hotels. Leider kenne ich die Hotelbesitzer nicht persönlich, (28) außerdem hätte ich mich natürlich sofort für dich eingesetzt. Ich werde (29) übrigens wieder im Kinder-Feriencamp arbeiten. Eigentlich wollte ich dieses Jahr ins Ausland, aber dann habe ich mich doch (30) entschieden, hier zu bleiben. Meine Mutter hat sich noch nicht richtig von ihrer Operation erholt, und ich lasse sie ungern allein.\n\nAlso bewirb dich gleich - es wäre toll, wenn wir uns im Sommer viel sehen könnten. Falls es nicht klappt, hoffe ich doch, dass du uns bald besuchen kommst! In der Zwischenzeit alles Liebe,\nSophia",
+        "questions": [
+            {
+                "question": "21) ...",
+                "options": ["A) erst", "B) gleich", "C) zuerst"],
+                "answer": "A"
+            },
+            {
+                "question": "22) ...",
+                "options": ["A) am besten", "B) bestenfalls", "C) bestens"],
+                "answer": "C"
+            },
+            {
+                "question": "23) ...",
+                "options": ["A) bei", "B) mit", "C) zu"],
+                "answer": "C"
+            },
+            {
+                "question": "24) ...",
+                "options": ["A) fast", "B) ungefähr", "C) ziemlich"],
+                "answer": "C"
+            },
+            {
+                "question": "25) ...",
+                "options": ["A) besondere", "B) geringe", "C) gute"],
+                "answer": "A"
+            },
+            {
+                "question": "26) ...",
+                "options": ["A) künftige", "B) nächste", "C) weitere"],
+                "answer": "C"
+            },
+            {
+                "question": "27) ...",
+                "options": ["A) anwerben", "B) bewerben", "C) umwerben"],
+                "answer": "B"
+            },
+            {
+                "question": "28) ...",
+                "options": ["A) außerdem", "B) damals", "C) sonst"],
+                "answer": "C"
+            },
+            {
+                "question": "29) ...",
+                "options": ["A) deshalb", "B) trotzdem", "C) übrigens"],
+                "answer": "C"
+            },
+            {
+                "question": "30) ...",
+                "options": ["A) ausgemacht", "B) beschlossen", "C) entschieden"],
+                "answer": "C"
+            }
+        ]
+    } ,
+    {
+        "text": "Liebe Autorinnen und Autoren,\n\nWeihnachten ist nicht mehr weit, und bevor wir uns alle in die wohlverdienten Feiertage verabschieden, möchte ich euch noch einmal an den Redaktionsschluss für unsere Vereinszeitung erinnern, den wir für den 10. Januar festgelegt haben. (21) wie ihr alle wisst, kann Claudia, unsere fleißige Layouterin, sich erst dann an die Arbeit machen, wenn alle Texte und Bilder (22) vorliegen. Die fertige Datei muss bis spätestens 22. Januar in der Druckerei sein, damit das Heft pünktlich zum 1. Februar fertig sein kann. Ein gutes Layout ist auch (23) im Interesse der Autorinnen und Autoren. Ist es schlecht, schenkt man dem Artikel automatisch weniger Beachtung. Liefert also bitte eure Beiträge rechtzeitig (24) ab. Für die Bildbearbeitung ist wie immer Florian zuständig. Bitte die Bilder im TIF- oder im JPG-Format liefern und bitte den Bildnachweis anführen, wenn die Bilder nicht von euch selbst stammen. Für eure eigenen Bilder liegt das Copyright natürlich (25) bei euch. Leider sind die Verkaufszahlen unserer Vereinszeitung im letzten Jahr (26) stark zurückgegangen. Deshalb möchten wir euch alle noch einmal herzlich (27) bitten, nur Themen zu wählen, die unsere Vereinsmitglieder betreffen und sie auch wirklich (28) ansprechen. Das heißt nicht, (29) dass man große Themen wie Politik oder Gesellschaft nicht behandeln kann, aber sie sollten leserfreundlich verpackt sein. Wir verstehen uns ausdrücklich (30) als unabhängige Zeitung und möchten uns keinen Maulkorb umhängen lassen. Trotzdem sollten die Beiträge im Rahmen sachlicher Meinungsäußerungen bleiben. In diesem Sinne freut sich die Redaktion auf zahlreiche Artikel!\n\nBeste Grüße und viel Erfolg,\nEure Redaktion",
+        "questions": [
+            {
+                "question": "21) ...",
+                "options": ["A) wie", "B) was", "C) wann"],
+                "answer": "A"
+            },
+            {
+                "question": "22) ...",
+                "options": ["A) vorliegen", "B) unterliegen", "C) liegen lassen"],
+                "answer": "A"
+            },
+            {
+                "question": "23) ...",
+                "options": ["A) von", "B) ohne", "C) im"],
+                "answer": "C"
+            },
+            {
+                "question": "24) ...",
+                "options": ["A) zu", "B) ein", "C) ab"],
+                "answer": "C"
+            },
+            {
+                "question": "25) ...",
+                "options": ["A) mit", "B) für", "C) bei"],
+                "answer": "C"
+            },
+            {
+                "question": "26) ...",
+                "options": ["A) unerschütterlich", "B) stark", "C) fest"],
+                "answer": "B"
+            },
+            {
+                "question": "27) ...",
+                "options": ["A) deswegen", "B) darum", "C) dafür"],
+                "answer": "B"
+            },
+            {
+                "question": "28) ...",
+                "options": ["A) besprechen", "B) aussprechen", "C) ansprechen"],
+                "answer": "C"
+            },
+            {
+                "question": "29) ...",
+                "options": ["A) ob", "B) dass", "C) damit"],
+                "answer": "B"
+            },
+            {
+                "question": "30) ...",
+                "options": ["A) sowie", "B) als ob", "C) als"],
+                "answer": "C"
+            }
+        ]
+    } ,
+    {
+        "text": "Liebe Familie Geissler, oder Dippold,\nvielen Dank für Ihre Antwort (21) auf meine Bewerbung als Au-pair-Mädchen. Danke schon auch für die Fotos von den Kindern. Ich bin schon sehr gespannt und freue mich sehr, Ihre Familie im September kennenzulernen!\nIm Juni schließe ich meine Schulausbildung (22) ab und möchte auch noch mein Deutsch (23) ein bisschen verbessern. Dafür werde ich im Sommer noch einen Sprachkurs an einer Sommerschule in meiner Heimat (24) machen. Anschließend fahre ich mit meiner Familie für drei Wochen in Urlaub ans Meer. Ich habe noch eine Frage (25) an Sie. Sie schreiben, dass Sie für die Weihnachtsferien einen Skiurlaub planen, bei dem ich mitfahren kann, wenn ich möchte. Ich habe aber keine Ski und Skibekleidung. Kann ich mir diese Sachen bei (26) irgendjemandem ausleihen? In meiner Heimat werde ich sie kaum jemals wieder brauchen. Aber ich bin immer offen für Neues und möchte das Skilaufen gern einmal ausprobieren. Danke schon, (27) falls Sie mich am Flughafen abholen kommen. Ich habe meinen Flug nach Frankfurt (28) schon gebucht. Am 2.9. werde ich sehr früh in Frankfurt landen, nämlich um 5:15 Uhr. Ich schlage (29) vor, dass wir uns erst gegen 7:30 Uhr in einem Café treffen. Vielleicht komme ich ja mit Verspätung oder muss länger auf mein Gepäck warten. Dann müssen Sie nicht so früh da sein. Bitte schreiben Sie mir, wenn Sie noch etwas über mich wissen möchten! Ich schicke einige Fotos mit der Mail, damit die Kinder schon ein bisschen (30) mehr von mir sehen.\n\nViele Grüße,\nIhre Asja",
+        "questions": [
+            {
+                "question": "21) ...",
+                "options": ["A) wegen", "B) von", "C) auf"],
+                "answer": "C"
+            },
+            {
+                "question": "22) ...",
+                "options": ["A) zu", "B) aus", "C) ab"],
+                "answer": "C"
+            },
+            {
+                "question": "23) ...",
+                "options": ["A) kaum", "B) fast", "C) ein bisschen"],
+                "answer": "C"
+            },
+            {
+                "question": "24) ...",
+                "options": ["A) unterrichten", "B) machen", "C) lernen"],
+                "answer": "B"
+            },
+            {
+                "question": "25) ...",
+                "options": ["A) über", "B) für", "C) an"],
+                "answer": "C"
+            },
+            {
+                "question": "26) ...",
+                "options": ["A) irgendwo", "B) irgendjemandem", "C) irgendetwas"],
+                "answer": "B"
+            },
+            {
+                "question": "27) ...",
+                "options": ["A) falls", "B) dass", "C) dafür"],
+                "answer": "B"
+            },
+            {
+                "question": "28) ...",
+                "options": ["A) schon", "B) noch", "C) bevor"],
+                "answer": "A"
+            },
+            {
+                "question": "29) ...",
+                "options": ["A) zu", "B) vor", "C) nach"],
+                "answer": "B"
+            },
+            {
+                "question": "30) ...",
+                "options": ["A) weniger", "B) viel", "C) mehr"],
+                "answer": "C"
+            }
+        ]
+    } ,
+    
+        
+          {
+            "text": "Sehr geehrter Herr Dr. Dobromil,\nmit (21)Interesse habe ich Ihr Stellenangebot in der Essener Zeitung gelesen, (22) Sie eine Teilzeit-Mitarbeiterin in Ihrem Antiquitätengeschäft suchen. Es reizt mich eine verantwortungsvolle Aufgabe in einem so renommierten Geschäft wie dem (23) übernehmen (24). Nach dem Abitur am Kreisgymnasium in Velbert begann ich eine dreijährige Schreinerlehre (25) der Firma Eichelbohrer & Co und besuchte die Kreisberufsschule in Velbert. Nach erfolgreichem Abschluss meiner Berufsausbildung arbeitete ich (26) bei Stutz & Partner - Möbeldesign in Düsseldorf. Danach schrieb ich mich an der Fachhochschule Köln im Fachbereich Möbeldesign ein und (27) meine Liebe zu antiquarischen Möbelstücken. Meine Spezialität ist das stilgenaue Restaurieren und Aufarbeiten antiquarischer Möbel insbesondere aus dem Biedermeier und dem Jugendstil. Aufgrund meiner Berufserfahrung und meines Studiums konnte ich umfangreiche Kenntnisse erwerben, (28) Möbelstile und die Herstellungskunst in den verschiedensten Epochen (29) in Nord- (29) in Südeuropa angeht. Mein Studium lässt mir genügend Zeit, eine Teilzeitstelle zu übernehmen, die darüber hinaus meinen beruflichen Fähigkeiten und Neigungen entspricht. Aus diesem Grund habe ich mich entschlossen, (30), und bewerbe mich um die von Ihnen angebotene Teilzeitstelle.",
+            "questions": [
+              {
+                "question": "21) ...",
+                "options": ["A) allergrößte", "B) allergrößtem", "C) allergrößten"],
+                "answer": "B"
+              },
+              {
+                "question": "22) ...",
+                "options": ["A) an dem", "B) auf dem", "C) in dem"],
+                "answer": "C"
+              },
+              {
+                "question": "23) ...",
+                "options": ["A) Ihrem", "B) Ihres", "C) Ihre"],
+                "answer": "B"
+              },
+              {
+                "question": "24) ...",
+                "options": ["A) können", "B) könnte", "C) zu können"],
+                "answer": "C"
+              },
+              {
+                "question": "25) ...",
+                "options": ["A) an", "B) bei", "C) mit"],
+                "answer": "B"
+              },
+              {
+                "question": "26) ...",
+                "options": ["A) ein Jahr lang", "B) durch ein Jahr", "C) seit einem Jahr"],
+                "answer": "A"
+              },
+              {
+                "question": "27) ...",
+                "options": ["A) entdeckte", "B) entwickelte", "C) merkte"],
+                "answer": "A"
+              },
+              {
+                "question": "28) ...",
+                "options": ["A) das", "B) was", "C) welches"],
+                "answer": "B"
+              },
+              {
+                "question": "29) ...",
+                "options": ["A) sowohl...als auch", "B) teils...teils", "C) weder...noch"],
+                "answer": "A"
+              },
+              {
+                "question": "30) ...",
+                "options": ["A) auf Ihre Anzeige antworten", "B) auf Ihre Anzeige zu antworten", "C) auf Ihre Anzeige zu antworten"],
+                "answer": "B"
+              }
+            ]
+          },
+          {
+            "text": "Liebe Corinna,\nes tut mir wirklich leid, (21) dass ich dir seit Ewigkeiten nicht mehr geschrieben habe. Aber du weißt ja: Ich habe seit drei Monaten eine neue Arbeit. Und da hatte ich gar keine Zeit, mich mit etwas Anderem zu (22) beschäftigen als mit der neuen Arbeit. Es hat mich wirklich überrascht, wie schnell ich nach dem Abschluss meiner Ausbildung etwas gefunden habe. Dabei haben alle immer nur gesagt: \"Gärtner? Die gibt es (23) wie Sand am Meer, wie willst du da so schnell einen Job finden?\".\nIch arbeite jetzt in einer Baumschule. Wir kultivieren und verkaufen Obstbäume, (24) die an die Obstbauern der näheren Umgebung. Die Arbeit macht mir großen Spaß, es ist andererseits aber ein bisschen anstrengend, acht Stunden am Tag körperlich - (25) im Freien - zu arbeiten. Und leider (26) muss ich fast eine dreiviertel Stunde mit dem Zug fahren, um an meinen Arbeitsplatz zu kommen.\nWenn ich dann abends nach Hause komme, bin ich so müde, dass ich eigentlich nur noch fernsehen oder Musik hören kann. Ich habe im Moment nur (27) wenig Lust, etwas zu unternehmen, aber ich bin mir sicher: Das kommt (28) wieder. Wie sieht es dir denn? Du müsstest doch jetzt auch bald mit deiner Ausbildung fertig sein, oder? Hast du schon damit angefangen, dich bei verschiedenen Arbeitgebern zu bewerben? Oder (29) brauchst du dir noch ein bisschen Zeit damit? Ich würde dir in jedem Fall raten: Fang so früh wie (30) möglich mit den Bewerbungen an, je früher, desto besser.",
+            "questions": [
+              {
+                "question": "21) ...",
+                "options": ["A) dass", "B) ob", "C) weil"],
+                "answer": "B"
+              },
+              {
+                "question": "22) ...",
+                "options": ["A) bedienen", "B) beeilen", "C) beschäftigen"],
+                "answer": "C"
+              },
+              {
+                "question": "23) ...",
+                "options": ["A) bloß", "B) doch", "C) nur"],
+                "answer": "B"
+              },
+              {
+                "question": "24) ...",
+                "options": ["A) außerdem", "B) insbesondere", "C) jedoch"],
+                "answer": "C"
+              },
+              {
+                "question": "25) ...",
+                "options": ["A) übermächtig", "B) überwiegend", "C) im"],
+                "answer": "A"
+              },
+              {
+                "question": "26) ...",
+                "options": ["A) darf", "B) hast", "C) muss"],
+                "answer": "B"
+              },
+              {
+                "question": "27) ...",
+                "options": ["A) gering", "B) knapp", "C) möglich"],
+                "answer": "A"
+              },
+              {
+                "question": "28) ...",
+                "options": ["A) kommt", "B) läuft", "C) steht"],
+                "answer": "C"
+              },
+              {
+                "question": "29) ...",
+                "options": ["A) brauchst", "B) hast", "C) lässt"],
+                "answer": "A"
+              },
+              {
+                "question": "30) ...",
+                "options": ["A) kürzlich", "B) möglich", "C) üblich"],
+                "answer": "B"
+              }
+            ]
+          },
+          {
+            "text": "Lieber Justus, oder Johannes,\nvieLEN Dank für deine Urlaubskarte, (21) die ich mich wirklich sehr gefreut habe! Ich wusste (22) nicht, dass ihr gerne wandern geht. Oder habt ihr das jetzt zum ersten Mal gemacht? Als Kind war ich mit meinen Eltern mal wandern, aber mir hat das damals nicht (23) gefallen. Ich war auch noch klein und hatte keine Lust, so lange zu laufen. Heute fahre ich lieber an den Strand und mache einen schönen Badeurlaub. Den ganzen Tag lesen, in der Sonne liegen, ab und zu mal ins Wasser gehen - (24) habe ich schon im Alltag genug Stress. Dabei fällt mir ein: Wie ist eigentlich deine neue Stelle? Du arbeitest doch jetzt in dieser internationalen Baufirma, oder? Bist du jetzt schneller im Büro als früher oder ist die Firma sogar noch weiter (25) als deine alte? Du musstest ja immer ziemlich lange fahren, daran erinnere ich mich noch gut!\nIch denke im Moment auch darüber nach, die Stelle zu (26). Mein Chef und meine Kollegen sind zwar total nett und die Bezahlung ist auch gut, aber ich mache fast jeden Tag das Gleiche - und das jetzt schon seit über zehn Jahren. Ehrlich (27) langweile ich mich in den letzten Monaten immer häufiger und würde gerne noch mal etwas Neues ausprobieren. Deshalb mache ich ab dem (28) Monat erst mal eine Weiterbildung, sonst hätte ich wohl nicht so gute Chancen, eine neue Stelle zu bekommen. Schlussfolglich wird es auch immer schwieriger, (29) älter man ist. Die meisten Arbeitgeber wollen doch lieber jüngere Angestellte. Wie (30) es, wenn wir uns demnächst treffen würden?",
+            "questions": [
+              {
+                "question": "21) ...",
+                "options": ["A) an", "B) für", "C) über"],
+                "answer": "A"
+              },
+              {
+                "question": "22) ...",
+                "options": ["A) daher", "B) gar", "C) sicher"],
+                "answer": "C"
+              },
+              {
+                "question": "23) ...",
+                "options": ["A) besonders", "B) einfach", "C) kaum"],
+                "answer": "B"
+              },
+              {
+                "question": "24) ...",
+                "options": ["A) allerdings", "B) außerdem", "C) schlieflich"],
+                "answer": "B"
+              },
+              {
+                "question": "25) ...",
+                "options": ["A) ---", "B) entfernter", "C) weiter"],
+                "answer": "C"
+              },
+              {
+                "question": "26) ...",
+                "options": ["A) ändern", "B) verwechseln", "C) wechseln"],
+                "answer": "B"
+              },
+              {
+                "question": "27) ...",
+                "options": ["A) gesagt", "B) sage", "C) zu sagen"],
+                "answer": "C"
+              },
+              {
+                "question": "28) ...",
+                "options": ["A) kommende", "B) kommendem", "C) kommenden"],
+                "answer": "A"
+              },
+              {
+                "question": "29) ...",
+                "options": ["A) als", "B) je", "C) weil"],
+                "answer": "C"
+              },
+              {
+                "question": "30) ...",
+                "options": ["A) ist", "B) wäre", "C) wäre"],
+                "answer": "B"
+              }
+            ]
+          },
+          {
+            "text": "Liebe Corinna,\n\nes tut mir wirklich leid, (21) dass ich dir seit Ewigkeiten nicht mehr geschrieben habe. Aber du weißt ja: Ich habe seit drei Monaten eine neue Arbeit. Und da hatte ich gar keine Zeit, mich mit etwas Anderem zu (22) beschäftigen als mit der neuen Arbeit. Es hat mich wirklich überrascht, wie schnell ich nach dem Abschluss meiner Ausbildung etwas gefunden habe. Dabei haben alle immer nur gesagt: \"Gärtner? Die gibt es (23) wie Sand am Meer, wie willst du da so schnell einen Job finden?\".\n\nIch arbeite jetzt in einer Baumschule. Wir kultivieren und verkaufen Obstbäume, (24) die an die Obstbauern der näheren Umgebung. Die Arbeit macht mir großen Spaß, es ist andererseits aber ein bisschen anstrengend, acht Stunden am Tag körperlich - (25) im Freien - zu arbeiten. Und leider muss ich (26) eine dreiviertel Stunde mit dem Zug fahren, um an meinen Arbeitsplatz zu kommen. Wenn ich dann am Abend nach Hause komme, bin ich so müde, dass ich eigentlich nur noch fernsehen oder Musik hören kann. Ich habe im Moment nur (27) wenig Lust, etwas zu unternehmen, aber ich bin mir sicher: Das kommt (28) wieder. Wie geht es dir denn? Du müsstest doch jetzt auch bald mit deiner Ausbildung fertig sein, oder? Hast du schon damit angefangen, dich bei verschiedenen Arbeitgebern zu bewerben? Oder (29) brauchst du dir noch ein bisschen Zeit damit? Ich würde dir in jedem Fall raten: Fang so früh wie (30) möglich mit den Bewerbungen an, je früher, desto besser. Du weißt ja, was unser Klassenlehrer in der Realschule immer gesagt hat: Gut Ding will Weile haben.\n\nMach's gut, bis bald,\n\ndein Richard",
+            "questions": [
+                {
+                    "question": "21) ...",
+                    "options": ["A) dass", "B) ob", "C) weil"],
+                    "answer": "A"
+                },
+                {
+                    "question": "22) ...",
+                    "options": ["A) bedienen", "B) beeilen", "C) beschäftigen"],
+                    "answer": "C"
+                },
+                {
+                    "question": "23) ...",
+                    "options": ["A) bloß", "B) doch", "C) nur"],
+                    "answer": "B"
+                },
+                {
+                    "question": "24) ...",
+                    "options": ["A) außerdem", "B) insbesondere", "C) jedoch"],
+                    "answer": "B"
+                },
+                {
+                    "question": "25) ...",
+                    "options": ["A) übermächtig", "B) überwiegend", "C) im"],
+                    "answer": "C"
+                },
+                {
+                    "question": "26) ...",
+                    "options": ["A) darf", "B) muss", "C) kann"],
+                    "answer": "A"
+                },
+                {
+                    "question": "27) ...",
+                    "options": ["A) gering", "B) knapp", "C) wenig"],
+                    "answer": "C"
+                },
+                {
+                    "question": "28) ...",
+                    "options": ["A) kommt", "B) läuft", "C) steht"],
+                    "answer": "A"
+                },
+                {
+                    "question": "29) ...",
+                    "options": ["A) brauchst", "B) hast", "C) lässt"],
+                    "answer": "C"
+                },
+                {
+                    "question": "30) ...",
+                    "options": ["A) kürzlich", "B) möglich", "C) üblich"],
+                    "answer": "B"
+                }
+            ]
+        },
+        {
+            "text": "Lieber Justus,\n\nvielen Dank für deine Urlaubskarte, (21) die ich mich wirklich sehr gefreut habe! Ich wusste (22) nicht, dass ihr gerne wandern geht. Oder habt ihr das jetzt zum ersten Mal gemacht?\n\nAls Kind war ich mit meinen Eltern mal wandern, aber mir hat das damals nicht (23) gefallen. Ich war auch noch klein und hatte keine Lust, so lange zu laufen.\n\nHeute fahre ich lieber an den Strand und mache einen schönen Badeurlaub. Den ganzen Tag lesen, in der Sonne liegen, ab und zu mal ins Wasser gehen - (24) habe ich schon im Alltag genug Stress. Dabei fällt mir ein: Wie ist eigentlich deine neue Stelle? Du arbeitest doch jetzt in dieser internationalen Baufirma, oder? Bist du jetzt schneller im Büro als früher oder ist die Firma sogar noch weiter (25) als deine alte? Du musstest ja immer ziemlich lange fahren, daran erinnere ich mich noch gut!\n\nIch denke im Moment auch darüber nach, die Stelle zu (26). Mein Chef und meine Kollegen sind zwar total nett und die Bezahlung ist auch gut, aber ich mache fast jeden Tag das Gleiche - und das jetzt schon seit über zehn Jahren. Ehrlich (27) langweile ich mich in den letzten Monaten immer häufiger und würde gerne noch mal etwas Neues ausprobieren. Deshalb mache ich ab dem (28) kommenden Monat erst mal eine Weiterbildung, sonst hätte ich wohl nicht so gute Chancen, eine neue Stelle zu bekommen. Schließlich wird es auch immer schwieriger, (29) älter man ist. Die meisten Arbeitgeber wollen doch lieber jüngere Angestellte. Wie (30) wäre es, wenn wir uns demnächst treffen würden? Wir könnten in diesem neuen Restaurant in der Innenstadt essen gehen. Melde dich doch einfach mal wieder!\n\nViele Grüße,\nRichard",
+            "questions": [
+                {
+                    "question": "21) ...",
+                    "options": ["A) an", "B) für", "C) über"],
+                    "answer": "C"
+                },
+                {
+                    "question": "22) ...",
+                    "options": ["A) deswegen", "B) ob", "C) weil"],
+                    "answer": "B"
+                },
+                {
+                    "question": "23) ...",
+                    "options": ["A) kaum", "B) einfach", "C) doch"],
+                    "answer": "A"
+                },
+                {
+                    "question": "24) ...",
+                    "options": ["A) allerdings", "B) jedoch", "C) zwar"],
+                    "answer": "C"
+                },
+                {
+                    "question": "25) ...",
+                    "options": ["A) als", "B) während", "C) wenn"],
+                    "answer": "C"
+                },
+                {
+                    "question": "26) ...",
+                    "options": ["A) ändern", "B) wechseln", "C) suchen"],
+                    "answer": "C"
+                },
+                {
+                    "question": "27) ...",
+                    "options": ["A) gesagt", "B) gewusst", "C) langweile"],
+                    "answer": "A"
+                },
+                {
+                    "question": "28) ...",
+                    "options": ["A) kommenden", "B) letzten", "C) nächsten"],
+                    "answer": "C"
+                },
+                {
+                    "question": "29) ...",
+                    "options": ["A) als", "B) wenn", "C) ob"],
+                    "answer": "B"
+                },
+                {
+                    "question": "30) ...",
+                    "options": ["A) wie", "B) was", "C) ob"],
+                    "answer": "C"
+                }
+            ]
+        } ,
+        {
+            "text": "Hallo Ferdinand,\n\nnun habe ich mich schon so lange nicht bei dir gemeldet - das tut mir wirklich leid! Ich hatte in den vergangenen Monaten viel Stress, weil ich ja nun studiere und nebenbei noch arbeiten muss, (21) um meine Miete und alles andere bezahlen zu können. Zum Glück macht mir mein Nebenjob wenigstens Spaß. Ich weiß nicht, (22) ob ich das sonst durchhalten würde. Vielleicht habe ich dir schon erzählt, dass ich abends und am Wochenende in einer Kneipe in der Küche helfe. Das ist zwar oft sehr anstrengend, (23) andererseits ist dauernd was los, es wird nicht langweilig, und meine Kollegen sind total nett. Erinnerst du dich noch an unsere Zeit in der Grundschule? Mit acht Jahren wollte ich ja (24) Kellnerin werden, weil man da Trinkgeld bekommt. Naja, jetzt bin ich in der Küche gelandet, knapp daneben ist auch vorbei! ;)\n\nWas macht denn deine Ausbildung? Wenn ich (25) nicht täusche, bist du ja in einem halben Jahr schon fertig, oder? Das ist ja nicht mehr lang! Neulich habe ich übrigens Tina und Kevin hier in der Nähe der Uni getroffen - die waren ja schon ein Paar, (26) als wir noch in der Schule gegangen sind, und jetzt will sie tatsächlich verheiratet! Wie sehen denn deine Pläne für die (27) kommenden Wochenenden aus? Wir könnten uns ja vielleicht mal wieder treffen und in Ruhe quatschen - hättest du Lust (28)? In meiner Straße hat vor einem Monat ein nettes kleines Café aufgemacht, die haben nicht nur sehr leckere Kuchen, (29) sondern auch einige kleine Gerichte zu wirklich günstigen Preisen. Wäre das was (30) für dich? Melde dich doch einfach, wenn du magst, ich würde mich freuen.\n\nViele Grüße,\nNadine",
+            "questions": [
+                {
+                    "question": "21) ...",
+                    "options": ["A) anstatt", "B) ohne", "C) um"],
+                    "answer": "C"
+                },
+                {
+                    "question": "22) ...",
+                    "options": ["A) dass", "B) ob", "C) während"],
+                    "answer": "B"
+                },
+                {
+                    "question": "23) ...",
+                    "options": ["A) aber", "B) denn", "C) und"],
+                    "answer": "A"
+                },
+                {
+                    "question": "24) ...",
+                    "options": ["A) bestimmt", "B) wirklich", "C) einfach"],
+                    "answer": "B"
+                },
+                {
+                    "question": "25) ...",
+                    "options": ["A) wahrscheinlich", "B) nicht", "C) sicher"],
+                    "answer": "B"
+                },
+                {
+                    "question": "26) ...",
+                    "options": ["A) als", "B) wenn", "C) weil"],
+                    "answer": "A"
+                },
+                {
+                    "question": "27) ...",
+                    "options": ["A) kommenden", "B) letzten", "C) nächsten"],
+                    "answer": "B"
+                },
+                {
+                    "question": "28) ...",
+                    "options": ["A) danach", "B) eher", "C) auch"],
+                    "answer": "C"
+                },
+                {
+                    "question": "29) ...",
+                    "options": ["A) aber", "B) und", "C) oder"],
+                    "answer": "C"
+                },
+                {
+                    "question": "30) ...",
+                    "options": ["A) für", "B) mit", "C) zu"],
+                    "answer": "A"
+                }
+            ]
+        }
+        
+      
+]
