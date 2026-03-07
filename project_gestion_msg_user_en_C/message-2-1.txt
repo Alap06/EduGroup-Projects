@@ -1,0 +1,247 @@
+#include <iostream>
+#include <string>
+#include <vector>
+#include <list>
+#include <fstream>
+#include <sstream>
+#include <ctime>
+#include <stdexcept>
+
+class Message {
+public:
+    std::string sender;
+    std::string recipient;
+    std::string subject;
+    std::string text;
+    time_t timestamp;
+
+    Message(const std::string& sender, const std::string& recipient, const std::string& subject, const std::string& text)
+        : sender(sender), recipient(recipient), subject(subject), text(text), timestamp(time(0)) {}
+};
+
+class User {
+public:
+    std::string username;
+    std::string password;
+    std::vector<Message> inbox;
+
+    User(const std::string& username, const std::string& password)
+        : username(username), password(password) {}
+};
+
+class MessagingSystem {
+private:
+    struct UserStruct {
+        std::string username;
+        std::string password;
+        std::vector<Message> inbox;
+    };
+
+    std::vector<UserStruct> users;
+
+public:
+    void add_user(const std::string& username, const std::string& password);
+    bool authenticate_user(const std::string& username, const std::string& password);
+    void display_mailbox(const std::string& username);
+    void send_message(const std::string& sender, const std::string& recipient, const std::string& subject, const std::string& text);
+    void delete_message(int message_index, const std::string& username);
+    void modify_user(int user_index, const std::string& new_username, const std::string& new_password);
+    void delete_user(int user_index, const std::string& username);
+};
+
+void MessagingSystem::add_user(const std::string& username, const std::string& password)
+{
+    for (UserStruct& user : users) {
+        if (user.username == username) {
+            throw std::runtime_error("Username already exists.");
+        }
+    }
+
+    users.emplace_back(UserStruct{username, password});
+}
+
+bool MessagingSystem::authenticate_user(const std::string& username, const std::string& password)
+{
+    for (UserStruct& user : users) {
+        if (user.username == username && user.password == password) {
+            return true;
+        }
+    }
+
+    return false;
+}
+void MessagingSystem::modify_user(int index, const std::string& username, const std::string& password)
+{
+    UserStruct& user = users[index];
+    user.username = username;
+    user.password = password;
+    std::cout << "User " << user.username << " has been modified.\n";
+}
+
+void MessagingSystem::delete_user(int index, const std::string& username)
+{
+    UserStruct& user = users[index];
+    if (user.username == username) {
+        users.erase(users.begin() + index);
+        std::cout << "User " << username << " has been deleted.\n";
+    } else {
+        throw std::runtime_error("User not found.");
+    }
+}
+
+void MessagingSystem::display_mailbox(const std::string& username)
+{
+    for (UserStruct& user : users) {
+        if (user.username == username) {
+            std::cout << "User " << username << "'s mailbox:\n";
+            size_t message_index = 1;
+            for (const Message& message : user.inbox) {
+                std::cout << message_index++ << ". " << message.subject << ": " << message.text << '\n';
+            }
+            return;
+        }
+    }
+
+    throw std::runtime_error("User not found.");
+}
+
+void MessagingSystem::send_message(const std::string& sender, const std::string& recipient, const std::string& subject, const std::string& text)
+{
+    for (UserStruct& sender_user : users) {
+        if (sender_user.username == sender) {
+            for (UserStruct& recipient_user : users) {
+                if (recipient_user.username == recipient) {
+                    Message message{sender, recipient, subject, text};
+                    recipient_user.inbox.emplace_back(message);
+                    std::cout << "Message sent from " << sender << " to " << recipient << ".\n";
+                    return;
+                }
+            }
+
+            throw std::runtime_error("Recipient not found.");
+        }
+    }
+
+    throw std::runtime_error("Sender not found.");
+}
+
+void MessagingSystem::delete_message(int message_index, const std::string& username)
+{
+    for (UserStruct& user : users) {
+        if (user.username == username) {
+            if (message_index > 0 && message_index <= static_cast<int>(user.inbox.size())) {
+                user.inbox.erase(user.inbox.begin() + message_index - 1);
+                std::cout << "Message " << message_index << " deleted from " << username << "'s mailbox.\n";
+                return;
+            } else {
+                throw std::runtime_error("Invalid message index.");
+            }
+        }
+    }
+
+    throw std::runtime_error("User not found.");
+}
+
+
+
+int main()
+{
+    MessagingSystem system;
+
+    // Add user accounts
+    system.add_user("user1", "pass1");
+    system.add_user("user2", "pass2");
+
+    while (true) {
+        std::cout << "\nPlease enter your choice:\n"
+                  << "1. Add a user\n"
+                  << "2. Authenticate\n"
+                  << "3. Display mailbox\n"
+                  << "4. Send a message\n"
+                  << "5. Delete a message\n"
+                  << "6. Modify user\n"
+                  << "7. Delete user\n"
+                  << "0. Exit\n"
+                  << "> ";
+
+        int choice;
+        std::cin >> choice;
+
+        std::string username, password, new_username, new_password;
+        int user_index, message_index;
+        char confirm;
+
+        switch (choice) {
+        case 1:
+            std::cout << "Enter a username: ";
+            std::cin >> username;
+            std::cout << "Enter a password: ";
+            std::cin >> password;
+            system.add_user(username, password);
+            break;
+        case 2:
+            std::cout << "Enter your username: ";
+            std::cin >> username;
+            std::cout << "Enter your password: ";
+            std::cin >> password;
+            if (system.authenticate_user(username, password)) {
+                std::cout << "Authentication successful." << std::endl;
+            } else {
+                std::cout << "Authentication failed." << std::endl;
+            }
+            break;
+        case 3:
+            std::cout << "Enter your username: ";
+            std::cin >> username;
+            system.display_mailbox(username);
+            break;
+        case 4: {
+            std::cout << "Enter sender's username: ";
+            std::cin >> username;
+            std::string recipient, subject, text;
+            std::cout << "Enter recipient's username: ";
+            std::cin >> recipient;
+            std::cout << "Enter subject: ";
+            std::cin.ignore();
+            std::getline(std::cin, subject);
+            std::cout << "Enter message text: ";
+            std::getline(std::cin, text);
+            system.send_message(username, recipient, subject, text);
+            break;
+        }
+        case 5:
+            std::cout << "Enter your username: ";
+            std::cin >> username;
+            std::cout << "Enter message index: ";
+            std::cin >> message_index;
+            system.delete_message(message_index, username);
+            break;
+        case 6:
+            std::cout << "Enter your username: ";
+            std::cin >> username;
+            std::cout << "Enter user index: ";
+            std::cin >> user_index;
+            std::cout << "Enter new username: ";
+            std::cin >> new_username;
+            std::cout << "Enter new password: ";
+            std::cin >> new_password;
+            system.modify_user(user_index, new_username, new_password);
+            break;
+        case 7:
+            std::cout << "Enter your username: ";
+            std::cin >> username;
+            std::cout << "Enter user index: ";
+            std::cin >> user_index;
+            system.delete_user(user_index, username);
+            break;
+        case 0:
+            std::cout << "Goodbye!" << std::endl;
+            return 0;
+            default:
+                std::cout << "Invalid option. Please try again." << std::endl;
+                break;
+        }
+    }
+
+    return 0;
+}

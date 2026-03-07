@@ -1,0 +1,184 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================
+   Styles globaux - To-Do App
+   ============================================ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+  min-height: 100vh;
+  color: #f8fafc;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ============================================
+   Composants personnalisés
+   ============================================ */
+
+@layer components {
+  /* Container principal avec effet glassmorphism */
+  .glass-card {
+    @apply bg-dark-800/50 backdrop-blur-xl border border-dark-700/50 rounded-2xl shadow-2xl;
+  }
+
+  /* Bouton primaire avec gradient */
+  .btn-primary {
+    @apply px-6 py-3 bg-gradient-to-r from-primary-500 to-primary-600 
+           text-white font-semibold rounded-xl
+           hover:from-primary-600 hover:to-primary-700
+           focus:outline-none focus:ring-2 focus:ring-primary-500/50
+           transform hover:scale-105 active:scale-95
+           transition-all duration-200 ease-out
+           shadow-lg shadow-primary-500/25;
+  }
+
+  /* Bouton secondaire */
+  .btn-secondary {
+    @apply px-4 py-2 bg-dark-700/50 text-dark-200
+           border border-dark-600/50 rounded-xl
+           hover:bg-dark-600/50 hover:border-dark-500/50
+           focus:outline-none focus:ring-2 focus:ring-dark-500/50
+           transform hover:scale-105 active:scale-95
+           transition-all duration-200 ease-out;
+  }
+
+  /* Bouton danger */
+  .btn-danger {
+    @apply px-4 py-2 bg-red-500/20 text-red-400
+           border border-red-500/30 rounded-xl
+           hover:bg-red-500/30 hover:border-red-500/50
+           focus:outline-none focus:ring-2 focus:ring-red-500/50
+           transform hover:scale-105 active:scale-95
+           transition-all duration-200 ease-out;
+  }
+
+  /* Bouton succès */
+  .btn-success {
+    @apply px-4 py-2 bg-emerald-500/20 text-emerald-400
+           border border-emerald-500/30 rounded-xl
+           hover:bg-emerald-500/30 hover:border-emerald-500/50
+           focus:outline-none focus:ring-2 focus:ring-emerald-500/50
+           transform hover:scale-105 active:scale-95
+           transition-all duration-200 ease-out;
+  }
+
+  /* Input stylisé */
+  .input-field {
+    @apply w-full px-4 py-3 bg-dark-900/50 
+           border border-dark-600/50 rounded-xl
+           text-white placeholder-dark-400
+           focus:outline-none focus:border-primary-500/50 focus:ring-2 focus:ring-primary-500/30
+           transition-all duration-200 ease-out;
+  }
+
+  /* Textarea stylisé */
+  .textarea-field {
+    @apply w-full px-4 py-3 bg-dark-900/50 
+           border border-dark-600/50 rounded-xl
+           text-white placeholder-dark-400
+           focus:outline-none focus:border-primary-500/50 focus:ring-2 focus:ring-primary-500/30
+           transition-all duration-200 ease-out
+           resize-none min-h-[100px];
+  }
+
+  /* Checkbox personnalisée */
+  .checkbox-custom {
+    @apply w-6 h-6 rounded-lg border-2 border-dark-500
+           bg-dark-800/50 cursor-pointer
+           checked:bg-primary-500 checked:border-primary-500
+           focus:ring-2 focus:ring-primary-500/50
+           transition-all duration-200 ease-out;
+  }
+
+  /* Card de tâche */
+  .task-card {
+    @apply glass-card p-5 mb-4
+           hover:border-primary-500/30 hover:shadow-primary-500/10
+           transition-all duration-300 ease-out
+           animate-slide-up;
+  }
+
+  /* Badge statut */
+  .badge-pending {
+    @apply px-3 py-1 text-xs font-medium rounded-full
+           bg-amber-500/20 text-amber-400 border border-amber-500/30;
+  }
+
+  .badge-completed {
+    @apply px-3 py-1 text-xs font-medium rounded-full
+           bg-emerald-500/20 text-emerald-400 border border-emerald-500/30;
+  }
+
+  /* Spinner de chargement */
+  .spinner {
+    @apply w-8 h-8 border-4 border-dark-600 border-t-primary-500 
+           rounded-full animate-spin;
+  }
+}
+
+/* ============================================
+   Animations personnalisées
+   ============================================ */
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+.float-animation {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Effet de brillance sur les cards */
+.shine-effect {
+  position: relative;
+  overflow: hidden;
+}
+
+.shine-effect::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.05),
+    transparent
+  );
+  transition: left 0.5s ease;
+}
+
+.shine-effect:hover::before {
+  left: 100%;
+}
+
+/* Scrollbar personnalisée */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e293b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #475569;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #64748b;
+}

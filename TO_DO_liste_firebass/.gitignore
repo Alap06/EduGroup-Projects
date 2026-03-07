@@ -1,0 +1,32 @@
+# Fichiers à ignorer par Git
+
+# Dépendances
+node_modules/
+
+# Fichiers de build
+dist/
+build/
+
+# Variables d'environnement
+.env
+.env.local
+.env.production
+
+# Clés Firebase (TRÈS IMPORTANT)
+serviceAccountKey.json
+**/serviceAccountKey.json
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Cache
+.cache/

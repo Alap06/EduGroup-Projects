@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Ala Amara - Développeur Full-Stack & UI/UX Designer. Portfolio moderne avec animations et visualisations interactives." />
+    <meta name="keywords" content="développeur, full-stack, UI/UX, React, TypeScript, portfolio, Tunisie" />
+    <meta name="author" content="Ala Amara" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ala-amara-portfolio.com/" />
+    <meta property="og:title" content="Ala Amara - Portfolio Développeur Full-Stack" />
+    <meta property="og:description" content="Découvrez mes projets et compétences en développement web moderne" />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Ala Amara - Portfolio Développeur" />
+    <meta name="twitter:description" content="Portfolio moderne avec animations et visualisations interactives" />
+    
+    <title>Ala Amara - Portfolio Développeur Full-Stack & UI/UX Designer</title>
+    
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://images.pexels.com" />
+    
+    <!-- Custom CSS Variables -->
+    <style>
+      :root {
+        --primary-color: #3B82F6;
+        --secondary-color: #8B5CF6;
+        --accent-color: #06B6D4;
+        --text-color: #1F2937;
+        --bg-color: #F8FAFC;
+      }
+      
+      /* Loading screen styles */
+      .loading-screen {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 9999;
+        transition: opacity 0.5s ease-out;
+      }
+      
+      .loading-screen.fade-out {
+        opacity: 0;
+        pointer-events: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    
+    <!-- Custom cursor tracking -->
+    <script>
+      // Custom cursor effect
+      let mouseX = 0;
+      let mouseY = 0;
+      
+      document.addEventListener('mousemove', (e) => {
+        mouseX = e.clientX;
+        mouseY = e.clientY;
+      });
+      
+      // Smooth scroll for anchor links
+      document.addEventListener('click', (e) => {
+        if (e.target.closest('a[href^="#"]')) {
+          e.preventDefault();
+          const href = e.target.closest('a').getAttribute('href');
+          const target = document.querySelector(href);
+          if (target) {
+            target.scrollIntoView({ behavior: 'smooth' });
+          }
+        }
+      });
+    </script>
+  </body>
+</html>
